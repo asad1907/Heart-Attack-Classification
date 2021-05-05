@@ -2,6 +2,7 @@
 Heart Attack Analysis &amp; Prediction 
 
 
+
 # About the Dataset
 
 1. age - age in years
@@ -30,4 +31,9 @@ Heart Attack Analysis &amp; Prediction
 
 13. thal - 0 = NULL; 1 = fixed defect; 2 = normal; 3 = reversable defect
 
-14. num - the predicted attribute - diagnosis of heart disease (angiographic disease status) (Value 0 = < diameter narrowing; Value 1 = > 50% diameter narrowing)
+14. output : 0= less chance of heart attack 1= more chance of heart attack
+
+
+
+# Problem Definition
+Classifiy people who has high or low heart attack risk
