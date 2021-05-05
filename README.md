@@ -4,31 +4,30 @@ Heart Attack Analysis &amp; Prediction
 
 # About the Dataset
 
-Age : Age of the patient
+1. age - age in years
 
-Sex : Sex of the patient
+2. sex - sex (1 = male; 0 = female)
 
-exang: exercise induced angina (1 = yes; 0 = no)
+3. cp - chest pain type (0 = typical angina; 1 = atypical angina; 2 = non-anginal pain; 3 = asymptomatic)
 
-ca: number of major vessels (0-3)
+4. trestbps - resting blood pressure (in mm Hg on admission to the hospital)
 
-cp : Chest Pain type chest pain type
+5. chol - serum cholestoral in mg/dl
 
-Value 1: typical angina
-Value 2: atypical angina
-Value 3: non-anginal pain
-Value 4: asymptomatic
-trtbps : resting blood pressure (in mm Hg)
+6. fbs - fasting blood sugar > 120 mg/dl (1 = true; 0 = false)
 
-chol : cholestoral in mg/dl fetched via BMI sensor
+7. restecg - resting electrocardiographic results (0 = normal; 1 = having ST-T; 2 = hypertrophy)
 
-fbs : (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+8. thalach - maximum heart rate achieved
 
-rest_ecg : resting electrocardiographic results
+9. exang - exercise induced angina (1 = yes; 0 = no)
 
-Value 0: normal
-Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
-Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
-thalach : maximum heart rate achieved
+10. oldpeak - ST depression induced by exercise relative to rest
 
-target : 0= less chance of heart attack 1= more chance of heart attack
+11. slope - the slope of the peak exercise ST segment (1 = upsloping; 2 = flat; 3 = downsloping)
+
+12. ca - number of major vessels (0-3) colored by flourosopy
+
+13. thal - 0 = NULL; 1 = fixed defect; 2 = normal; 3 = reversable defect
+
+14. num - the predicted attribute - diagnosis of heart disease (angiographic disease status) (Value 0 = < diameter narrowing; Value 1 = > 50% diameter narrowing)
