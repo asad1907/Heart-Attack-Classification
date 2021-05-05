@@ -2,6 +2,7 @@
 
 Heart Attack Analysis &amp; Prediction 
 
+<img src = "Heart_Attac/img/Heart-attack-diagram.jpg">
 
 
 # About the Dataset
@@ -38,3 +39,24 @@ Heart Attack Analysis &amp; Prediction
 
 # Problem Definition
 Classifiy people who has high or low heart attack risk
+
+
+
+<h2>Requirements</h2>
+
+```python
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
+from sklearn.ensemble import IsolationForest
+from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score, confusion_matrix, classification_report
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
+from sklearn.neural_network import MLPClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+```
+
