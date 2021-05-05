@@ -2,7 +2,7 @@
 
 Heart Attack Analysis &amp; Prediction 
 
-<img src = "Heart_Attac/img/Heart-attack-diagram.jpg" height = 600>
+<img src = "Heart_Attac/img/Heart-attack-diagram.jpg" height = 600 width = 800>
 (Source: www.anatomynote.com)
 
 
